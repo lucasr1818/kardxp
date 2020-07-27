@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    overflow-x: hidden;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+      font-family: "Verdana";
+      scroll-behavior: smooth;
+}
+header{
+    background: #131923;
+    position:absolute;
+    display:inline-block;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    box-sizing: border-box;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 5.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 2.5px 20px rgba(0, 0, 0, 0.06),
+  0 2.3px 2.9px rgba(0, 0, 0, 0.072),
+  0 2.8px 2.4px rgba(0, 0, 0, 0.086),
+  0 1px 8px rgba(0, 0, 0, 0.12);
+
+}
+nav a{
+    color: white;
+
+}
+nav{
+    float: right;
+    font-weight:600;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+    nav li{
+        padding-top: 22px;
+        margin-right: 300px;
+        text-decoration: none;
+
+        position: relative;
+    }
+    nav a {
+        font-size: 15px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    .logo{
+        width: 130px;
+        margin-top: 30px;
+        margin-left: 300px;
+        vertical-align: middle;
+        display: inline-block;
+        text-align: center;
+        padding: 0px 0;
+    	z-index: 200;
+    }
+.btn1{
+    z-index: 200;
+    color: white;
+    background: #ee4823;
+    padding: 10px 20px;;
+    float: right;
+    border-radius: 100px;
+  transition: all 0.4s;
+}
+
+.btn1:hover {
+  color: white;
+  box-shadow: 0 0px 17px #ee4823;
+}
+
+
+
+
+
+
+.tophalf{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+        height: 100vh;
+    margin-top: 0px;
+}
+.landingtitle{
+    padding-top: 200px;
+    color: white;
+    font-weight: 620;
+    text-align: center;
+    font-size: 30px;
+}
+.landingsubtitle{
+    padding-top: 20px;
+    color: #323e51;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+span{
+    color: #165dff;
+}
+.kardimage{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+    z-index: -1;
+    
+}
